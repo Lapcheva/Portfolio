@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+    font: 16px/20px 'Inter', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://s3-alpha-sig.figma.com/img/ecb2/704e/bdb0248ce2c22a51b6705f69efd82bb3?Expires=1668988800&Signature=dyNnAVINKNS9yZDgzWWBgEQaBL6Xotc4OAsDZMMbnPdNHtgLFabUnqqdfdFF-Q08xbnQ6KtWnVm9XziPb42EyB-vItRE1BEeYEfdCavlJXyHqmBgXDSK2zuxjPIjDJiCNaQf7rFmtZGBY9ZCBVVunBPSwC9EhL08lPBarSC4ya0WkpTW02tcV-EqO-neXnadDF3CqFe0bUr10NfHm2uGOirjUVl~jiAYlWwYrDV~NyCWsB5DesG9~9Wj6~D7TaO-MY14DdfJ05ydm8AfpbY0hSvc7xg0DgGYejU9JXZ-mK8W-0WP8hkb1o3q0DHmSvvcDIDmjk~8GlEN3OpigLngNA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size: cover;
+    padding: 48px 40px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo{
+    text-transform: uppercase;
+}
+
+.main-navigation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 40 px;
+    text-transform: uppercase;
+}
