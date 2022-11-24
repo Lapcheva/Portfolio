@@ -17,7 +17,7 @@ a{
     flex-direction: column;
     gap: 100px;
     height: 100vh;
-    background: url(https://s3-alpha-sig.figma.com/img/ecb2/704e/bdb0248ce2c22a51b6705f69efd82bb3?Expires=1668988800&Signature=dyNnAVINKNS9yZDgzWWBgEQaBL6Xotc4OAsDZMMbnPdNHtgLFabUnqqdfdFF-Q08xbnQ6KtWnVm9XziPb42EyB-vItRE1BEeYEfdCavlJXyHqmBgXDSK2zuxjPIjDJiCNaQf7rFmtZGBY9ZCBVVunBPSwC9EhL08lPBarSC4ya0WkpTW02tcV-EqO-neXnadDF3CqFe0bUr10NfHm2uGOirjUVl~jiAYlWwYrDV~NyCWsB5DesG9~9Wj6~D7TaO-MY14DdfJ05ydm8AfpbY0hSvc7xg0DgGYejU9JXZ-mK8W-0WP8hkb1o3q0DHmSvvcDIDmjk~8GlEN3OpigLngNA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA) no-repeat center center;
+    background: url(../CSS/img/main-logo.jpeg) no-repeat center center;
     background-size: cover;
     padding: 48px 40px;
 }
@@ -89,10 +89,113 @@ a{
 .specialities-holder{
     height: 600px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    background: url(../CSS/img/coffee.jpeg) no-repeat center center;
+    background-size: contain;
+    color: #000000;
+    padding: 144px 166px;
+    box-sizing: border-box;
 }
 
-.specialities-coffee{
-    max-height: 100%;
+.specialities-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
+
+.specialities-item {
+    width: 352px;
+    text-align: end;
+    display: flex;
+    gap: 16px;
+}
+.specialities-item-left {
+    text-align: start;
+}
+
+.specialities-item-right {
+    text-align: end;
+}
+
+.specialities-title {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0 0 7px;
+}
+
+.specialities-text{
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0;
+}
+.specialities-logo {
+    width: 64px;
+    height: 64px;
+    
+}
+
+.booking-wrapper{
+    height: 432px;  
+    background: url(../CSS/img/booking-bg.jpeg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.main-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 3px;
+    margin: 0 0 48px;
+    position: relative;
+}
+
+.main-heading::after{
+    content: '';
+    display: block;
+    width: 189px;
+    height: 1px;
+    background-color: #ffffff;
+    left: 50%; 
+    top: 66px;
+    transform: translateX(-50%); 
+    position: absolute;
+}
+
+.description-txt {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    max-width: 474px;
+    text-align: center;
+}
+ .booking-btn {
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+ }
+ .booking-btn:hover {
+    background: #ffffff;
+    color: #000000;
+ }
+
+ .menu-wrapper {
+    background: #EEEEEE;
+    padding: 96px 161px;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
