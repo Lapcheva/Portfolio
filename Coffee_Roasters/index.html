@@ -88,16 +88,273 @@
     </div>
 
     <section class="booking-wrapper">
-        <h1 class="main-heading">Looking for a fresh coffee?</h1>
-        <p class="description-txt">Come drink a coffee with us on 
+        <div class="main-header-wrapper">
+            <h1 class="main-heading">Looking for a fresh coffee?</h1>
+            <span class="main-underline"></span>
+            <p class="main-description-txt">Come drink a coffee with us on 
             Fleet Street,  Chancery Lane or Milkwood Road!</p>
+        </div>
         <a href="#" class="booking-btn">Book a table</a>
     </section>
 
     <section class="menu-wrapper">
-        <h1 class="main-heading">Explore our menu</h1>
-        <p class="description-txt">Available all day! We can not guarantee our foods are allergen-free. Service charge not included.</p>
+        <div class="main-header-wrapper">
+            <h1 class="main-heading">Explore our menu</h1>
+            <span class="main-underline black-line"></span>
+            <p class="main-description-txt">Available all day! We can not guarantee our foods are allergen-free. Service charge not included.</p>
+        </div>
+        <div id="tabs" class="tabs-container">
+            <nav class="tabs-navigation">
+                <a href="#food" class="tabs-navigation-links">Food</a>
+                <a href="#drinks" class="tabs-navigation-links">Drinks</a>
+            </nav>
+            <div class="tabs-bodies">
+                <div id="food" class="menu-box ">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/omelet.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Prufrock Breakfast Bun</h6>
+                                <p class="menu-item-description">Brioche bun, with bacon, scrambled egg, melty cheese and mustard</p>
+                            </div>
+                            <span class="menu-item-price">$8</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/muesli.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Bircher muesli (VEgan)</h6>
+                                <p class="menu-item-description">Bircher muesli with strawberries and cacao nibs</p>
+                            </div>
+                            <span class="menu-item-price">$6.5</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/granole.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">House Granola (Vegetarian, Glutten Free)</h6>
+                                <p class="menu-item-description">Granola with jumbo oats and nuts served with Greek yoghurt and apricots</p>
+                            </div>
+                            <span class="menu-item-price">$6.5</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/poached-egg.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Prufrock benny</h6>
+                                <p class="menu-item-description">Cackleberry Farm poached eggs, Red Brick espresso hollandaise on toast</p>
+                            </div>
+                            <span class="menu-item-price">$10.0</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/soup.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Soup (Vegan on request)</h6>
+                                <p class="menu-item-description">Gazpacho served with sourdough toast</p>
+                            </div>
+                            <span class="menu-item-price">$6.5</span>
+                        </li>
+                    </ul>
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/granole.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Mushrooms (Vegan on request)</h6>
+                                <p class="menu-item-description">Field mushrooms on toast with graceburn cheese and aioli</p>
+                            </div>
+                            <span class="menu-item-price">$3.45</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/soup.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Tomatoes on toast</h6>
+                                <p class="menu-item-description">Heirloom tomatoes with lovage pesto and chives on toasted sourdough</p>
+                            </div>
+                            <span class="menu-item-price">$3.45</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/omelet.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Fruit Toast</h6>
+                                <p class="menu-item-description">Fruity rye toast served with Stichelton cheese and red plum</p>
+                            </div>
+                            <span class="menu-item-price">$3.45</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/muesli.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Eggs on toast</h6>
+                                <p class="menu-item-description">Cackleberry eggs - poached, fried or scrambled on sourdough toast</p>
+                            </div>
+                            <span class="menu-item-price">$3.45</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/granole.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Toast (Vegan on request)</h6>
+                                <p class="menu-item-description">Sourdough toast with butter and blueberry and blackcurrant jam</p>
+                            </div>
+                            <span class="menu-item-price">$3.45</span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="drinks" class="menu-box">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/drinks/americano.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Americano</h6>
+                                <p class="menu-item-description">Prepared by diluting an espresso with hot water</p>
+                            </div>
+                            <span class="menu-item-price">$1,20</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/drinks/cappuccino" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Cappucino</h6>
+                                <p class="menu-item-description">An espresso-based coffee drink that is prepared with steamed milk foam </p>
+                            </div>
+                            <span class="menu-item-price">$3,00</span>
+                        </li>
+                        <li class="menu-item">
+                            <img src="./CSS/img/menu/drinks/latte.jpeg" alt="#" class="menu-item-logo">
+                            <div class="menu-item-text-box">
+                                <h6 class="menu-item-heading">Coffee latte</h6>
+                                <p class="menu-item-description">Is a made up of one or two shots of espresso, steamed milk and a final, thin layer of frothed milk on top</p>
+                            </div>
+                            <span class="menu-item-price">$4,50</span>
+                        </li>
+                    </ul>
+                </div>
+            
+            </div>
+        </div>
     </section>
-    
+
+    <section class="testimonials-wrapper">
+        <div class="main-header-wrapper">
+            <h1 class="main-heading">Looking for a fresh coffee?</h1>
+            <span class="main-underline"></span>
+        </div>
+        <div class="testimonials-carousel">
+            <div class="testimonials-item">
+                <p class="testimonial-txt">I had a cup of iced coffee, which was perfect size for me. Not too big. The cup is stylish with slim design. The iced coffee was perfect for a warm day like today. 
+                    The cafe is clean and welcoming.</p>
+                <span class="testimonial-author">Chiho Sharp, local expert</span>
+            </div>
+            <div class="testimonials-item">
+                <p class="testimonial-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem voluptatibus numquam unde id ex distinctio saepe maxime voluptas blanditiis at. Magnam corporis vero nisi totam consequuntur ab vel distinctio porro.
+                Harum autem, doloribus velit at ad nisi doloremque blanditiis magni earum sequi impedit magnam illum reiciendis voluptas accusamus quia, beatae nobis asperiores tenetur hic saepe facilis! Sunt, incidunt magnam? Eos?</p>
+                <span class="testimonial-author">Nancy Anders</span>
+            </div>
+            <div class="testimonials-item">
+                <p class="testimonial-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eveniet nihil necessitatibus inventore! Recusandae sunt laboriosam corrupti exercitationem dolores vero illum unde. Itaque laborum voluptatum quod, saepe ut quis iusto!</p>
+                <span class="testimonial-author">John Marston</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="news-wrapper">
+        <div class="main-header-wrapper">
+            <h1 class="main-heading">News</h1>
+            <span class="main-underline black-line"></span>
+            <p class="main-description-txt">Stay updated on all the latest Coffee House products, events & community news.</p>
+        </div>
+
+        <ul class="news-list">
+            <li class="news-list-item">
+                <img src="./CSS/img/news/moka-pot.png" alt="#" class="news-pic">
+                <h6 class="news-heading">Moka pot</h6>
+                <p class="news-txt">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                <a href="" class="news-link">Read more</a>
+            </li>
+            <li class="news-list-item">
+                <img src="./CSS/img/news/women-in-coffee.png" alt="" class="news-pic">
+                <h6 class="news-heading">Women in Coffee - Women’s Collective</h6>
+                <p class="news-txt">Our Quality Control Lead in Melbourne, Jane Doe, is instrumental in selecting single origin coffee for Coffe House Espresso.</p>
+                <a href="" class="news-link">Read more</a>
+            </li>
+            <li class="news-list-item">
+                <img src="./CSS/img/news/specialists.png" alt="#" class="news-pic">
+                <h6 class="news-heading">Coffee Roasters and Espresso Specialists - Our Story</h6>
+                <p class="news-txt">Coffee House is built on relationships. Our success as a coffee roaster is down to the success of the people we choose to partner with – from our first café customer, to our staff around the world.</p>
+                <a href="" class="news-link">Read more</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="location-box">
+        <div class="main-header-wrapper">
+            <h1 class="main-heading overflow">Our locations</h1>
+            <span class="main-underline overflow"></span>
+            <p class="main-description-txt overflow">Come drink a coffee with us <br>
+                on Fleet Street or Chancery Lane!</p>
+        </div>
+
+        <ul class="locations-list">
+            <li class="locations-item overflow">
+                <img src="./CSS/img/location/fleet.jpeg" alt="#" class="location-pic">
+                <h6 class="location-heading">Fleet Street Press</h6>
+                <div class="timetable-location-wrapper">                
+                    <span class="location-text">Mon - Sun:  10:00 - 00:00</span>
+                    <span class="location-text">3 Fleet Street, London EC4Y 1AU</span>
+            </li>
+            <li class="locations-item overflow">
+                <img src="./CSS/img/location/chancery.jpeg" alt="#" class="location-pic">
+                <h6 class="location-heading">Chancery Press</h6>
+                <div class="timetable-location-wrapper">                
+                    <span class="location-text">Mon - Sun:  10:00 - 00:00</span>
+                    <span class="location-text">81 Chancery Lane, London WC2A 1DD</span>
+            </li>
+            <li class="locations-item overflow">
+                <img src="./CSS/img/location/shoreditch.jpeg" alt="#" class="location-pic">
+                <h6 class="location-heading">SHOREDITCH</h6>
+                <div class="timetable-location-wrapper">                
+                    <span class="location-text">Mon - Sun:  10:00 - 00:00</span>
+                    <span class="location-text">Unit 15, Stone Trading Estate
+                        Milkwood Road, Herne Hill
+                        SE24 0JU</span>
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="subscribe-wrapper">
+        <div class="main-header-wrapper">
+            <h1 class="main-heading">Our newsletter</h1>
+            <span class="main-underline"></span>
+            <p class="main-description-txt">Available all day! We can not guarantee our foods are allergen-free. Service charge not included.</p>
+        </div>
+
+        <form action="submit" class="subscribe-form">
+            <input type="email" class="subscribe-input" placeholder="Enter your email">
+            <button class="subscribe-btn">Subscribe</button>
+
+        </form>
+    </section>
+
+    <footer class="footer-holder">
+        <span class="footer-copyright">Copyright 2022 All rights reserved</span>
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <li class="footer-list-item"><a href="" class="footer-list-link">home</a></li>
+                <li class="footer-list-item"><a href="" class="footer-list-link">about</a></li>
+                <li class="footer-list-item"><a href="" class="footer-list-link">shop</a></li>
+                <li class="footer-list-item"><a href="" class="footer-list-link">contact</a></li>
+            </ul>
+        </nav>
+        <ul class="socials-list">
+            <li class="socials-item">
+                <a href="#" class="socials-link">fb</a>
+            </li>
+            <li class="socials-item">
+                <a href="#" class="socials-link">tw</a>
+            </li>
+            <li class="socials-item">
+                <a href="#" class="socials-link">Ig</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="./JS/jquery-3.6.1.min.js"></script>
+    <script src="./JS/slick.min.js"></script>
+    <script src="./JS/main.js"></script>
 </body>
 </html>
