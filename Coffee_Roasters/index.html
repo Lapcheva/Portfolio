@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/tablet-style.css">
 </head>
 <body>
 
@@ -16,6 +17,9 @@
         <header class="main-header">
             <a href="#" class="main-logo">Coffee House</a>
             <nav class="main-navigation">
+                <button class="navigation-button">
+                    <span></span><span></span><span></span>
+                </button>
                 <ul class="main-navigation-list">
                     <li class="main-navigation-item"><a href="#" class="main-navigation-link">Home</a></li>
                     <li class="main-navigation-item"><a href="#" class="main-navigation-link">Why us</a></li>
@@ -28,14 +32,14 @@
             </nav>
         </header>
         <div class="logo-container">
-            <a href="#" class="logo-img"><img src="CSS/img/Logo.svg" alt="" width="120" height="122"></a>
+            <a href="#"class='logo-link'><img src="CSS/img/Logo.svg" class="logo-img" alt="" width="120" height="122"></a>
             <h1 class="logo-title">The Coffee Roasters</h1>
             <p class="logo-text">We source our coffee seasonally, from farmers who care, and roast to highlight what makes them special.</p> 
-            <a class="menu-link-btn" href="#">View our menu</a>
+            <a class="menu-link-btn" href="#menu">View our menu</a>
         </div>
     </div>
 
-    <div class="specialities-holder">
+    <!-- <div class="specialities-holder">
         <ul class="specialities-list">
             <li class="specialities-item specialities-item-right">
                 <div class="specialities-text-wrapper">
@@ -89,7 +93,7 @@
 
     <section class="booking-wrapper">
         <div class="main-header-wrapper">
-            <h1 class="main-heading">Looking for a fresh coffee?</h1>
+            <h2 class="main-heading">Looking for a fresh coffee?</h2>
             <span class="main-underline"></span>
             <p class="main-description-txt">Come drink a coffee with us on 
             Fleet Street,  Chancery Lane or Milkwood Road!</p>
@@ -97,9 +101,9 @@
         <a href="#" class="booking-btn">Book a table</a>
     </section>
 
-    <section class="menu-wrapper">
+    <section class="menu-wrapper" id="menu">
         <div class="main-header-wrapper">
-            <h1 class="main-heading">Explore our menu</h1>
+            <h2 class="main-heading">Explore our menu</h2>
             <span class="main-underline black-line"></span>
             <p class="main-description-txt">Available all day! We can not guarantee our foods are allergen-free. Service charge not included.</p>
         </div>
@@ -230,7 +234,7 @@
 
     <section class="testimonials-wrapper">
         <div class="main-header-wrapper">
-            <h1 class="main-heading">Looking for a fresh coffee?</h1>
+            <h2 class="main-heading">Looking for a fresh coffee?</h2>
             <span class="main-underline"></span>
         </div>
         <div class="testimonials-carousel">
@@ -253,7 +257,7 @@
 
     <section class="news-wrapper">
         <div class="main-header-wrapper">
-            <h1 class="main-heading">News</h1>
+            <h2 class="main-heading">News</h2>
             <span class="main-underline black-line"></span>
             <p class="main-description-txt">Stay updated on all the latest Coffee House products, events & community news.</p>
         </div>
@@ -282,7 +286,7 @@
 
     <section class="location-box">
         <div class="main-header-wrapper">
-            <h1 class="main-heading overflow">Our locations</h1>
+            <h2 class="main-heading overflow">Our locations</h2>
             <span class="main-underline overflow"></span>
             <p class="main-description-txt overflow">Come drink a coffee with us <br>
                 on Fleet Street or Chancery Lane!</p>
@@ -295,6 +299,7 @@
                 <div class="timetable-location-wrapper">                
                     <span class="location-text">Mon - Sun:  10:00 - 00:00</span>
                     <span class="location-text">3 Fleet Street, London EC4Y 1AU</span>
+                </div>
             </li>
             <li class="locations-item overflow">
                 <img src="./CSS/img/location/chancery.jpeg" alt="#" class="location-pic">
@@ -302,6 +307,7 @@
                 <div class="timetable-location-wrapper">                
                     <span class="location-text">Mon - Sun:  10:00 - 00:00</span>
                     <span class="location-text">81 Chancery Lane, London WC2A 1DD</span>
+                </div>
             </li>
             <li class="locations-item overflow">
                 <img src="./CSS/img/location/shoreditch.jpeg" alt="#" class="location-pic">
@@ -311,14 +317,14 @@
                     <span class="location-text">Unit 15, Stone Trading Estate
                         Milkwood Road, Herne Hill
                         SE24 0JU</span>
+                </div>
             </li>
         </ul>
-
     </section>
 
     <section class="subscribe-wrapper">
         <div class="main-header-wrapper">
-            <h1 class="main-heading">Our newsletter</h1>
+            <h2 class="main-heading">Our newsletter</h1>
             <span class="main-underline"></span>
             <p class="main-description-txt">Available all day! We can not guarantee our foods are allergen-free. Service charge not included.</p>
         </div>
@@ -351,7 +357,7 @@
                 <a href="#" class="socials-link">Ig</a>
             </li>
         </ul>
-    </footer>
+    </footer> -->
 
     <script src="./JS/jquery-3.6.1.min.js"></script>
     <script src="./JS/slick.min.js"></script>

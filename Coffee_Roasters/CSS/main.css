@@ -5,6 +5,7 @@ body{
     font-weight: 400;
     color: #ffffff;
     background-color: #ffffff;
+    box-sizing: border-box;
 }
 
 a{
@@ -23,22 +24,23 @@ ul {
 }
 
 .main-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
     height: 100vh;
     background: url(../CSS/img/main-logo.jpeg) no-repeat center center;
     background-size: cover;
-    padding: 48px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 40px 0;
 }
 
 .main-header{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .main-logo{
     text-transform: uppercase;
+    margin: 0 40px 0 0;
 }
 
 .main-navigation-list {
@@ -53,17 +55,22 @@ ul {
 }
 
 .logo-container {
-    width: 64%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    align-self: center;
+    text-align: center;
+    height: 100%;
+    max-width: 70%;
+    justify-content: center;
+}
+
+.logo-link{
+    margin: 0 0 24px;
 }
 
 .logo-img {
-    margin: 0 0 24px;
+    display: block;
 }
 
 .logo-title {
@@ -76,12 +83,25 @@ ul {
     white-space: nowrap;
 }
 
+@media screen and (max-width: 1035px) {
+    .logo-title{
+    font-size: 70px;
+    line-height: 80px;
+    }
+}
+
 .logo-text {
     font-size: 32px;
     line-height: 40px;
     font-weight: 400;
-    text-align: center;
     margin: 0 0 48px;
+}
+
+@media screen and (max-width: 1035px) {
+    .logo-text{
+    font-size: 25px;
+    line-height: 29px;
+    }
 }
 
 .menu-link-btn {
@@ -102,7 +122,6 @@ ul {
     background-size: contain;
     color: #000000;
     padding: 144px 166px;
-    box-sizing: border-box;
 }
 
 .specialities-list {
@@ -202,7 +221,6 @@ ul {
 .menu-wrapper {
     background: #EEEEEE;
     padding: 96px 161px 30px;
-    box-sizing: border-box;
     color: #000000;
     display: flex;
     flex-direction: column;
@@ -252,7 +270,6 @@ ul {
 
 .menu-item{
     display: flex;
-    box-sizing: border-box;
     width: 544px;
     justify-content: space-between;
     gap: 24px;
@@ -552,3 +569,6 @@ ul {
     background-color: rgba(217, 217, 217, 0.2);
 }
 
+.navigation-button {
+    display: none;
+}
