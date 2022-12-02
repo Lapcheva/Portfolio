@@ -6,16 +6,14 @@ $(document).ready(function() {
             infinite: true,
             speed: 300,
             slidesToShow: 1,
-            adaptiveHeight: true
+            adaptiveHeight: true,
         }
     );
 
     $(document).ready(function() {
         $('.navigation-button').click(function (e) { 
-            $('.main-navigation-list').toggleClass('active');
-            $('.main-wrapper').toggleClass('dark-background');
-
-            
+            $('.navigation-list').toggleClass('active-nav-list');
+            $('body').toggleClass('dark-background');
         });
     })
 });
